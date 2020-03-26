@@ -1,0 +1,202 @@
+%!TEX Ts-program = xelatex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+\begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Alex} \headerlastnamestyle{Koen} \\
+	\vspace{2mm}
+	{\faEnvelope\ arw.koen@gmail.com} | {\faGlobe\ alexkoen.com} | {\faMobile\ (778) 834-7794} | {\faMapMarker\ 1176 Brackenell Cres, North Vancouver, BC}
+\end{center}
+
+\cvsection{Summary}
+
+A hard-working and dedicated first year engineering student at the University of British Columbia intending to pursue a degree in Engineering Physics. I have a proven ability to communicate with people of all ages, exemplified by my position as Vice-Chair of Communications for the youth council of Minister Jonathan Wilkinson.
+
+% \cvsection{Skills}
+% \begin{minipage}[t]{.25\linewidth}
+%     \entrytitlestyle{Public speaking} \\
+%     Fluent in both English and French and has won several awards for public speaking.
+%   \end{minipage}\hfill
+% \begin{minipage}[t]{.25\linewidth}
+%     \entrytitlestyle{Teamwork} \\
+%     Extensive experience working as a team to achieve a common goal.
+% \end{minipage}\hfill
+% \begin{minipage}[t]{.25\linewidth}
+%     \entrytitlestyle{Communication} \\
+%     Has proven communication skills and an ability to communicate effectively with anyone.
+% \end{minipage}
+
+% \vspace{10pt}
+
+% \begin{minipage}[t]{.25\linewidth}
+%     \entrytitlestyle{First Aid} \\
+%     Certified First Responder with over four years of volunteer experience. 
+%   \end{minipage}\hfill
+% \begin{minipage}[t]{.25\linewidth}
+%     \entrytitlestyle{Skiing} \\
+%     Able to ski all terrain with confidence and strong technique.
+% \end{minipage}\hfill
+% \begin{minipage}[t]{.25\linewidth}
+%     \entrytitlestyle{Linux} \\
+%     Experience as a Linux administrator and proficient with vim, git, and bash. 
+% \end{minipage}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work \& Volunteer Experience}
+\cventry
+  {Medical Applications in Software Technology - UBC BEST}
+  {Head designer and software developer}
+  {Vancouver, BC}
+  {Sept. 2019 - Present}
+  {\begin{cvitems}
+      \item {Worked with Vancouver General Hospital and the Vancouver Radiology Institute to develop a web and mobile application for paramedics and healthcare professionals.}
+  \end{cvitems}}
+
+
+  \cventry
+  {The Honourable Jonathan Wilkinson's Youth Council}
+  {Vice-Chair of Communications \& Web Designer}
+  {North Vancouver, BC}
+  {Oct. 2018 - Jun. 2019}
+  {\begin{cvitems}
+      \item {Elected as Vice-Chair of Communications after displaying a dedication to the council and an exemplary ability to communicate.}
+      \item {Interfaced directly with the Minister and the media to present projects to the public.}
+      \item {Built a responsive website from scratch to showcase our event, \textit{Youth Visioning Our City's Future,} to the general public.}
+  \end{cvitems}}
+  \cventry
+  {Handsworth Theatre Program}
+  {Head Writer}
+  {North Vancouver, BC}
+  {Jun. 2018 - Apr 2019}
+  {\begin{cvitems}
+      \item {Co-wrote an original play, \textit{Cast Iron Lily,} for over 200 cast members and which raised over \$50,000 in ticket sales.}
+      \item {Worked closely with four other head writers to both write and lead the other students during the production.}
+    \end{cvitems}}
+\begin{cventries}
+  \cventry
+  {Grouse Mountain Resorts}
+  {Ski Instructor}
+  {North Vancouver, BC}
+  {Dec. 2016 – Mar. 2019 (Seasonal)}
+  {\begin{cvitems}
+    \item {Worked with clients of all ages to provide them with a positive and memorable  experience.}
+    \item {Developed ability to educate clients and gained a higher level of responsibility within the department.}
+    \end{cvitems}}
+  \cventry
+  {21st Capilano Medical Venturers \& Handsworth First Responders Team}
+  {First Responder Volunteer}
+  {North Vancouver, BC}
+  {Summer 2015 – Present}
+  {\begin{cvitems}
+      \item {Elected as president of the Handsworth First Responders Team.}
+    \item {Helped others by working as a team to provide First Aid to those in need.}
+    \end{cvitems}}
+  \cventry
+  {Pacific Scout Jamboree}
+  {Roving Security Unit Medic}
+  {Sooke, BC}
+  {Jul. 2015}
+  {\begin{cvitems}
+      \item {Spent two weeks volunteering as a medic for a 100+ member medical team.}
+  \end{cvitems}}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+  \cventry
+  {University of British Columbia}
+  {First Year Engineering Student}
+  {Vancouver, BC}
+  {Present}
+  {\begin{cvitems}
+     \item Current GPA: 92\% 
+    \end{cvitems}}
+  \cventry
+  {Handsworth Secondary}
+  {Graduate with Honours}
+  {North Vancouver, BC}
+  {Jul. 2019}
+  {}
+  \cventry
+  {Level 2 Ski Instructor with Children\textquotesingle{}s Module}
+  {CSIA Level 2}
+  {}
+  {April 2017}
+  {}
+  \cventry
+  {Certified First Responder by the Canadian Red Cross}
+  {First Responder}
+  {}
+  {February 2016}
+  {}
+\end{cventries}
+
+\cvsection{Awards}
+\begin{cvhonors}
+  \cvhonor
+  {BC Achievement Scholarship}
+  {Top 8,000 graduating students in the province}
+  {}
+  {Sept. 2019}
+
+  \cvhonor
+  {Ray Noel Citizenship Award}
+  {Scholarship recipient}
+  {}
+  {June 2019}
+
+  \cvhonor
+  {Distinguished Graduate Award}
+  {Top 10\% of graduating sudents}
+  {}
+  {May 2019}
+
+  \cvhonor
+  {2018 Provincial Councours d'Art Oratoire Winner}
+  {Grade 11 French Immersion category}
+  {}
+  {May 2018}
+
+\end{cvhonors}
+
+\cvsection{References}
+References available upon request.
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End:
